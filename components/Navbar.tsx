@@ -5,9 +5,12 @@ import { Button } from "./ui/Button"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 
+import { useRegistration } from "@/context/RegistrationContext"
+
 export function Navbar() {
     const [isScrolled, setIsScrolled] = useState(false)
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+    const { openModal } = useRegistration()
 
     useEffect(() => {
         const handleScroll = () => {
@@ -39,7 +42,10 @@ export function Navbar() {
                             {item}
                         </a>
                     ))}
-                    <Button className={isScrolled ? "" : "bg-white text-black hover:bg-white/90"}>
+                    <Button
+                        className={isScrolled ? "" : "bg-white text-black hover:bg-white/90"}
+                        onClick={openModal}
+                    >
                         הרשמה
                     </Button>
                 </div>
@@ -73,7 +79,7 @@ export function Navbar() {
                                     {item}
                                 </a>
                             ))}
-                            <Button className="w-full">הרשמה</Button>
+                            <Button className="w-full" onClick={() => { setIsMobileMenuOpen(false); openModal(); }}>הרשמה</Button>
                         </div>
                     </motion.div>
                 )}

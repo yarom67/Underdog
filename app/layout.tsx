@@ -12,6 +12,9 @@ export const metadata: Metadata = {
   description: "Join the world's first competitive event designed exclusively for dogs with disabilities. A day of joy, community, and resilience.",
 };
 
+import { RegistrationProvider } from "@/context/RegistrationContext";
+import { RegistrationModalWrapper } from "@/components/RegistrationModalWrapper";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -22,7 +25,10 @@ export default function RootLayout({
       <body
         className={`${notoSansHebrew.variable} ${notoSansHebrew.className} antialiased`}
       >
-        {children}
+        <RegistrationProvider>
+          {children}
+          <RegistrationModalWrapper />
+        </RegistrationProvider>
       </body>
     </html>
   );
