@@ -29,7 +29,7 @@ export function Navbar() {
 
                 {/* Desktop Menu */}
                 <div className="hidden md:flex items-center gap-8">
-                    {["About", "Races", "Stories", "FAQ"].map((item) => (
+                    {["אודות", "המרוצים", "סיפורים", "שאלות ותשובות"].map((item) => (
                         <a
                             key={item}
                             href="#"
@@ -40,7 +40,7 @@ export function Navbar() {
                         </a>
                     ))}
                     <Button className={isScrolled ? "" : "bg-white text-black hover:bg-white/90"}>
-                        Register
+                        הרשמה
                     </Button>
                 </div>
 
@@ -63,7 +63,7 @@ export function Navbar() {
                         className="absolute top-full left-0 right-0 bg-background border-b border-border p-4 md:hidden shadow-xl"
                     >
                         <div className="flex flex-col gap-4">
-                            {["About", "Races", "Stories", "FAQ"].map((item) => (
+                            {["אודות", "המרוצים", "סיפורים", "שאלות ותשובות"].map((item) => (
                                 <a
                                     key={item}
                                     href="#"
@@ -73,7 +73,7 @@ export function Navbar() {
                                     {item}
                                 </a>
                             ))}
-                            <Button className="w-full">Register</Button>
+                            <Button className="w-full">הרשמה</Button>
                         </div>
                     </motion.div>
                 )}

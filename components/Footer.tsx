@@ -6,24 +6,24 @@ export function Footer() {
             <div className="container mx-auto px-4">
                 <div className="grid md:grid-cols-4 gap-8 mb-8">
                     <div className="col-span-1 md:col-span-2">
-                        <h3 className="text-2xl font-bold text-primary mb-4">Underdog</h3>
+                        <h3 className="text-2xl font-bold text-primary mb-4">אנדרדוג</h3>
                         <p className="text-muted-foreground max-w-sm">
-                            Celebrating the spirit of dogs with disabilities. Every dog deserves their moment in the sun.
+                            חוגגים את הרוח של כלבים עם מוגבלויות. לכל כלב מגיע הרגע שלו בשמש.
                         </p>
                     </div>
 
                     <div>
-                        <h4 className="font-bold mb-4">Quick Links</h4>
+                        <h4 className="font-bold mb-4">קישורים מהירים</h4>
                         <ul className="space-y-2 text-muted-foreground">
-                            <li><a href="#" className="hover:text-primary transition-colors">About Us</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">The Races</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">Safety</a></li>
-                            <li><a href="#" className="hover:text-primary transition-colors">FAQ</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">אודות</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">המרוצים</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">בטיחות</a></li>
+                            <li><a href="#" className="hover:text-primary transition-colors">שאלות ותשובות</a></li>
                         </ul>
                     </div>
 
                     <div>
-                        <h4 className="font-bold mb-4">Connect</h4>
+                        <h4 className="font-bold mb-4">התחברו אלינו</h4>
                         <div className="flex gap-4 text-muted-foreground">
                             <a href="#" className="hover:text-primary transition-colors"><Instagram size={20} /></a>
                             <a href="#" className="hover:text-primary transition-colors"><Facebook size={20} /></a>
@@ -34,7 +34,7 @@ export function Footer() {
                 </div>
 
                 <div className="border-t border-border pt-8 text-center text-sm text-muted-foreground">
-                    <p>&copy; {new Date().getFullYear()} Underdog Race. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} מרוץ האנדרדוג. כל הזכויות שמורות.</p>
                 </div>
             </div>
         </footer>

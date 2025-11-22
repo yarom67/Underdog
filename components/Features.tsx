@@ -7,23 +7,23 @@ import Image from "next/image"
 const features = [
     {
         icon: Heart,
-        title: "Inclusive Categories",
-        description: "Races tailored for different abilities: Wheelchair Sprints, Tripod Dashes, and Blind/Deaf Navigation courses."
+        title: "קטגוריות מכילות",
+        description: "מרוצים המותאמים ליכולות שונות: ספרינטים בכיסאות גלגלים, מקצי תלת-רגל, ומסלולי ניווט לעיוורים/חירשים."
     },
     {
         icon: Users,
-        title: "Community Support",
-        description: "Connect with other owners, vets, and specialists who understand the unique needs of special dogs."
+        title: "תמיכה קהילתית",
+        description: "התחברו לבעלים אחרים, וטרינרים ומומחים שמבינים את הצרכים הייחודיים של כלבים מיוחדים."
     },
     {
         icon: Trophy,
-        title: "Every Dog Wins",
-        description: "While we have winners, every participant receives a medal. It's about the finish line, not the time."
+        title: "כל כלב מנצח",
+        description: "למרות שיש לנו מנצחים, כל משתתף מקבל מדליה. זה עניין של קו הסיום, לא הזמן."
     },
     {
         icon: ShieldCheck,
-        title: "Vet Supervised",
-        description: "A full team of veterinarians and physios on-site to ensure the safety and health of every athlete."
+        title: "פיקוח וטרינרי",
+        description: "צוות מלא של וטרינרים ופיזיותרפיסטים באתר כדי להבטיח את הבטיחות והבריאות של כל ספורטאי."
     }
 ]
 
@@ -38,7 +38,7 @@ export function Features() {
                         viewport={{ once: true }}
                         className="text-4xl font-bold mb-4 text-secondary"
                     >
-                        Why We Run
+                        למה אנחנו רצים
                     </motion.h2>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -47,7 +47,7 @@ export function Features() {
                         transition={{ delay: 0.1 }}
                         className="text-xl text-muted-foreground max-w-2xl mx-auto"
                     >
-                        A safe, professionally managed environment where your dog can shine.
+                        סביבה בטוחה ומנוהלת באופן מקצועי שבה הכלב שלכם יכול לזרוח.
                     </motion.p>
                 </div>
 
@@ -85,8 +85,8 @@ export function Features() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8">
                         <p className="text-white text-2xl font-medium max-w-xl">
-                            "Seeing my dog run freely with others like him was the most emotional moment of my life."
-                            <span className="block text-primary text-lg mt-2">- Sarah, Max's Mom</span>
+                            "לראות את הכלב שלי רץ בחופשיות עם אחרים כמוהו היה הרגע המרגש ביותר בחיי."
+                            <span className="block text-primary text-lg mt-2">- שרה, אמא של מקס</span>
                         </p>
                     </div>
                 </motion.div>

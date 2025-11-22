@@ -17,7 +17,7 @@ export function Registration() {
                     viewport={{ once: true }}
                     className="text-4xl md:text-5xl font-bold mb-6"
                 >
-                    Ready to Race?
+                    מוכנים לרוץ?
                 </motion.h2>
                 <motion.p
                     initial={{ opacity: 0, y: 20 }}
@@ -26,8 +26,8 @@ export function Registration() {
                     transition={{ delay: 0.1 }}
                     className="text-xl text-secondary-foreground/80 mb-10 max-w-2xl mx-auto"
                 >
-                    Join hundreds of other dogs and their humans for a day of unforgettable fun.
-                    Registration includes a race kit, medal, and professional photos.
+                    הצטרפו למאות כלבים אחרים ולבעליהם ליום של כיף בלתי נשכח.
+                    הההרשמה כוללת ערכת מרוץ, מדליה ותמונות מקצועיות.
                 </motion.p>
 
                 <motion.div
@@ -38,15 +38,15 @@ export function Registration() {
                     className="flex flex-col sm:flex-row gap-4 justify-center items-center"
                 >
                     <Button size="lg" className="bg-primary text-primary-foreground hover:bg-primary/90 text-lg px-8 py-6 h-auto rounded-full shadow-xl hover:shadow-2xl transition-all transform hover:-translate-y-1">
-                        Register Your Dog
+                        רשמו את הכלב שלכם
                     </Button>
                     <Button size="lg" variant="outline" className="bg-transparent border-white/20 text-white hover:bg-white/10 text-lg px-8 py-6 h-auto rounded-full">
-                        Volunteer
+                        התנדבו
                     </Button>
                 </motion.div>
 
                 <p className="mt-8 text-sm text-secondary-foreground/60">
-                    Next Race: June 15th, 2025 • Central Park, NY
+                    המרוץ הבא: 15 ביוני, 2025 • פארק הירקון, תל אביב
                 </p>
             </div>
         </section>

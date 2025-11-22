@@ -13,14 +13,13 @@ export function About() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2 className="text-4xl font-bold mb-6 text-secondary">More Than Just a Race</h2>
+                        <h2 className="text-4xl font-bold mb-6 text-secondary">יותר מסתם מרוץ</h2>
                         <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                            The Underdog Race is the world's first competitive event designed exclusively for dogs with disabilities.
-                            Whether on wheels, three legs, or with other unique challenges, these athletes prove that spirit knows no bounds.
+                            מרוץ האנדרדוג הוא האירוע התחרותי הראשון בעולם המיועד אך ורק לכלבים עם מוגבלויות.
+                            בין אם על גלגלים, שלוש רגליים, או עם אתגרים ייחודיים אחרים, הספורטאים האלה מוכיחים שלרוח אין גבולות.
                         </p>
                         <p className="text-lg text-muted-foreground leading-relaxed">
-                            Our mission is to celebrate the resilience of our furry friends and raise awareness about the incredible capabilities
-                            of special needs pets. It's a day of joy, community, and high-speed tail wags.
+                            המשימה שלנו היא לחגוג את החוסן של החברים הפרוותיים שלנו ולהעלות את המודעות ליכולות המדהימות של חיות מחמד עם צרכים מיוחדים. זהו יום של שמחה, קהילה וכשקושי זנב במהירות גבוהה.
                         </p>
                     </motion.div>
 
