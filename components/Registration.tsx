@@ -9,7 +9,7 @@ export function Registration() {
     const { openModal } = useRegistration()
 
     return (
-        <section className="py-24 bg-blue-50 text-secondary relative overflow-hidden">
+        <section className="py-24 bg-secondary text-secondary-foreground relative overflow-hidden">
             {/* Decorative circles */}
             <div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2 blur-3xl" />
             <div className="absolute bottom-0 right-0 w-96 h-96 bg-primary/10 rounded-full translate-x-1/2 translate-y-1/2 blur-3xl" />
@@ -19,7 +19,7 @@ export function Registration() {
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    className="text-4xl md:text-5xl font-bold mb-6"
+                    className="text-4xl md:text-5xl font-bold mb-6 text-primary"
                 >
                     מוכנים לרוץ?
                 </motion.h2>

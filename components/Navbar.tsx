@@ -4,6 +4,7 @@ import { useState, useEffect } from "react"
 import { Button } from "./ui/Button"
 import { Menu, X } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
+import Image from "next/image"
 
 import { useRegistration } from "@/context/RegistrationContext"
 
@@ -26,8 +27,14 @@ export function Navbar() {
                 }`}
         >
             <div className="container mx-auto px-4 flex items-center justify-between">
-                <div className={`text-2xl font-bold transition-colors ${isScrolled ? "text-foreground" : "text-white"}`}>
-                    Underdog
+                <div className="relative h-12 w-[150px]">
+                    <Image
+                        src="/logo.png"
+                        alt="Underdog"
+                        fill
+                        className="object-contain object-right"
+                        priority
+                    />
                 </div>
 
                 {/* Desktop Menu */}

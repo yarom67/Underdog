@@ -1,6 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
+import Image from "next/image"
 
 export function About() {
     return (
@@ -13,7 +14,7 @@ export function About() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <h2 className="text-4xl font-bold mb-6 text-secondary">יותר מסתם מרוץ</h2>
+                        <h2 className="text-4xl font-bold mb-6 text-primary">יותר מסתם מרוץ</h2>
                         <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                             מרוץ האנדרדוג הוא האירוע התחרותי הראשון בעולם המיועד אך ורק לכלבים עם מוגבלויות.
                             בין אם על גלגלים, שלוש רגליים, או עם אתגרים ייחודיים אחרים, הספורטאים האלה מוכיחים שלרוח אין גבולות.
@@ -30,10 +31,12 @@ export function About() {
                         transition={{ duration: 0.6 }}
                         className="relative h-[400px] rounded-2xl overflow-hidden shadow-2xl"
                     >
-                        {/* Placeholder for a video or another image if needed, using a gradient for now or I can reuse the hero image with different crop */}
-                        <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-secondary/20 flex items-center justify-center">
-                            <span className="text-6xl">🐾</span>
-                        </div>
+                        <Image
+                            src="/about-dogs.png"
+                            alt="Dogs playing in the park"
+                            fill
+                            className="object-cover"
+                        />
                     </motion.div>
                 </div>
             </div>

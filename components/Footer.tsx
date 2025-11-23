@@ -13,7 +13,7 @@ export function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="font-bold mb-4">קישורים מהירים</h4>
+                        <h4 className="font-bold mb-4 text-primary">קישורים מהירים</h4>
                         <ul className="space-y-2 text-muted-foreground">
                             <li><a href="#" className="hover:text-primary transition-colors">אודות</a></li>
                             <li><a href="#" className="hover:text-primary transition-colors">המרוצים</a></li>
@@ -23,7 +23,7 @@ export function Footer() {
                     </div>
 
                     <div>
-                        <h4 className="font-bold mb-4">התחברו אלינו</h4>
+                        <h4 className="font-bold mb-4 text-primary">התחברו אלינו</h4>
                         <div className="flex gap-4 text-muted-foreground">
                             <a href="#" className="hover:text-primary transition-colors"><Instagram size={20} /></a>
                             <a href="#" className="hover:text-primary transition-colors"><Facebook size={20} /></a>

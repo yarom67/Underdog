@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ededed;
 
   /* Brand Colors */
   --primary: #F59E0B;
@@ -14,8 +14,8 @@
   --accent: #14B8A6;
   /* Teal 500 */
   --accent-foreground: #ffffff;
-  --muted: #f3f4f6;
-  --muted-foreground: #6b7280;
+  --muted: #1f2937;
+  --muted-foreground: #9ca3af;
 }
 
 @theme inline {

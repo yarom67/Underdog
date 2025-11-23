@@ -29,9 +29,16 @@ export function Hero() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, ease: "easeOut" }}
-                    className="text-5xl md:text-7xl font-bold mb-6 tracking-tight"
+                    className="mb-6 flex justify-center"
                 >
-                    מרוץ ה-<span className="text-primary">אנדרדוג</span>
+                    <Image
+                        src="/logo.png"
+                        alt="מרוץ ה-אנדרדוג"
+                        width={500}
+                        height={200}
+                        className="w-[500px] h-auto"
+                        priority
+                    />
                 </motion.h1>
 
                 <motion.p
